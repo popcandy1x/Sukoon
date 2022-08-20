@@ -25,7 +25,7 @@ body {
 header {
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(/images/landing-page-image.jpg);
+    url(../images/landing-page-image.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -38,6 +38,10 @@ header {
   padding: 2% 6%;
   justify-content: space-between;
   align-items: center;
+}
+.nav-links{
+  text-align: right;
+  flex: 1;
 }
 
 .logo {
@@ -123,6 +127,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.login-button{
+  margin-left: .7rem;
 }
 
 .login-button a:hover {
